@@ -5,13 +5,17 @@ let numberPromptLength = Math.ceil(Math.log10(numberPrompt + 1));
 let chieneseZodiacYear = (numberPrompt - 4) % 12;
 // console.log(chieneseZodiacYear);
 
-if (Number.isNaN(numberPrompt)) {
-    console.log("Invalid input, please enter your birth year:");
-} else if (numberPromptLength > 4) {
-    console.log("Please enter 4 digit number");
-    let userPrompt = prompt("You have entered more than 4 digits. Please enter your birth year and get your Chinese zodiac sign:");
+// if (Number.isNaN(numberPrompt)) {
+//     console.log("Invalid input, please enter your birth year:");
+// } else if (numberPromptLength > 4) {
+//     console.log("Please enter 4 digit number");
+//     let userPrompt = prompt("You have entered more than 4 digits. Please enter your birth year and get your Chinese zodiac sign:");
 
-}
+// }
+
+if (Number.isNaN(numberPrompt) || numberPromptLength > 4) {
+    console.log("Invalid input, please enter your birth year:");
+} 
 
 switch (chieneseZodiacYear) {
 
