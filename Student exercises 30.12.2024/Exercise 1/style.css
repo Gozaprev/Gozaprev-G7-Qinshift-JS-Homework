@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+  }
+
+  .heading {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .button {
+    background-color: lightgoldenrodyellow;
+    border: 1px solid goldenrod;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .storytelling-form {
+    background-color: aliceblue;
+    width: 350px;
+    padding: 5px;
+    border: 1px solid rgb(144, 165, 183);
+    border-radius: 4px;
+  }
+  
+  .storytelling-form input {
+    margin: 5px 2px;
+  }
+  
+  .form-controls {
+    padding: 10px 0;
+    display: grid;
+    place-items: center;
+  }
