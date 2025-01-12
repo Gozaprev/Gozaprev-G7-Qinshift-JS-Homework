@@ -3,7 +3,7 @@ function weightInChickens() {
     let weightInKg = Number(prompt("Enter weight in kilograms:"));
 
     // Check if the user clicked Cancel or left the input empty
-    if (input === null || input.trim() === "") {
+    if (weightInKg === null || weightInKg.trim() === "") {
         document.getElementById("result").innerText = "Input was cancelled or empty. Please enter a valid weight.";
         return;
     }
